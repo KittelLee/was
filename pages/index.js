@@ -15,8 +15,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.homeTitle}>Home</h1>
-        <Link href="about">About</Link>
-        <Link href="profile">Profile</Link>
+        <div className={styles.subfont}>
+          <Link href="about">
+            <a>About</a>
+          </Link>
+          &nbsp;/&nbsp;
+          <Link href="profile">
+            <a>Profile</a>
+          </Link>
+        </div>
       </main>
 
       <footer className={styles.footer}>

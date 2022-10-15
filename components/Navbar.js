@@ -20,6 +20,10 @@ export default function Navbar() {
         <Link href="/Fragment">
           <a>Fragment</a>
         </Link>
+
+        <Link href="/coins">
+          <a>Coins</a>
+        </Link>
       </div>
     </div>
   );

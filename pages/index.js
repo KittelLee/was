@@ -16,13 +16,26 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.homeTitle}>Home</h1>
         <div className={styles.subfont}>
-          <Link href="about">
-            <a>About</a>
-          </Link>
-          &nbsp;/&nbsp;
-          <Link href="profile">
-            <a>Profile</a>
-          </Link>
+          <marquee width="500px">
+            <Link href="about">
+              <a>About</a>
+            </Link>
+            &nbsp;/&nbsp;
+            <Link href="profile">
+              <a>Profile</a>
+            </Link>
+            &nbsp;/&nbsp;
+            <Link href="Fragment">
+              <a>Fragment</a>
+            </Link>
+            &nbsp;/&nbsp;
+            <Link href="coins">
+              <a>Coins</a>
+            </Link>
+          </marquee>
+        </div>
+        <div className={styles.mainfoot}>
+          Copyright © 2022 WAS / made by Leejinuk
         </div>
       </main>
 

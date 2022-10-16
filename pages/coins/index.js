@@ -1,9 +1,11 @@
 import axios from "axios";
+import styles from "../../styles/Home.module.css";
+
 export default function CoinList({ coinData }) {
   console.log(coinData);
   const coins = coinData.coins;
   return (
-    <div>
+    <div className={styles.subsite}>
       <h1>Coin List </h1> 
       {coins.map((coin) => {
         return (

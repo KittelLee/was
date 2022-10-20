@@ -32,6 +32,10 @@ export default function Home() {
             <Link href="coins">
               <a>Coins</a>
             </Link>
+            &nbsp;/&nbsp;
+            <Link href="pokemon">
+              <a>Pokemon</a>
+            </Link>
           </marquee>
         </div>
         <div className={styles.mainfoot}>

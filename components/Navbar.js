@@ -24,6 +24,10 @@ export default function Navbar() {
         <Link href="/coins">
           <a>Coins</a>
         </Link>
+
+        <Link href="/pokemon">
+          <a>Pokemon</a>
+        </Link>
       </div>
     </div>
   );

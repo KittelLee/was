@@ -1,6 +1,6 @@
 import axios from "axios";
 import styles from "../../styles/coin.module.css";
-import Coin from "./Coin";
+import Coin from "./coin";
 
 export default function CoinList({ coinData }) {
   const coins = coinData.coins;
